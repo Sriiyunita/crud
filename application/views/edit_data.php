@@ -32,6 +32,10 @@
             <td><input type="text" name="pekerjaan" value="<?php echo $u->pekerjaan ?>"></td>
         </tr>
         <tr>
+		    <td>upload foto</td>
+			<td><input type="file" name="foto"></td>
+			 </tr>
+		<tr>
             <td></td>
             <td><input type="submit" value="Update"> <?php echo anchor('kampus/index','<input type=button value=Kembali>'); ?></td>
         </tr>
